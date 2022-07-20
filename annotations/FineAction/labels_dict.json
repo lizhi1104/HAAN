@@ -1,0 +1,144 @@
+{
+  "household activities": {
+    "cleaning": [
+      "chopping meat",
+      "clean windows",
+      "cut vegetables",
+      "fold clothes",
+      "mop floor",
+      "sweep floor",
+      "wash dishes",
+      "wash vegetables or fruit",
+      "wipe",
+      "wipe the table"
+    ],
+    "plants": [
+      "arrange flowers",
+      "chop wood",
+      "dig hole",
+      "mow lawn",
+      "trim shrubs",
+      "trim trees",
+      "water plants"
+    ]
+  },
+  "personal care": {
+    "hair": [
+      "braid hair ",
+      "brush hair",
+      "cut hair",
+      "dry hair",
+      "shave head",
+      "straighten hair"
+    ],
+    "hygiene": [
+      "brush teeth",
+      "cut nails",
+      "wash face",
+      "wash feet",
+      "wash hands",
+      "tie shoelaces",
+      "trim or shave beard"
+    ],
+    "makeup": [
+      "apply eyebrows",
+      "apply eyeliner",
+      "apply lipstick",
+      "apply nails",
+      "draw lipstick",
+      "paint eye shadow",
+      "put on mascara"
+    ]
+  },
+  "socializing relaxing": {
+    "instruments with hand": [
+      "play the accordion",
+      "play the cello",
+      "play the drums",
+      "play the guitar",
+      "play the harp",
+      "play the keyboard",
+      "play the piano",
+      "play the violin"
+    ],
+    "instruments with mouth": [
+      "play the bagpipes",
+      "play the flute",
+      "play the harmonica",
+      "play the saxophone",
+      "play the trumpet"
+    ],
+    "outdoor": [
+      "hula hooping",
+      "make a telephone call",
+      "pull ups",
+      "push wheelchair",
+      "ride a bike",
+      "ride scooter",
+      "rope skipping",
+      "skateboarding",
+      "smoking",
+      "swing"
+    ],
+    "touching": [
+      "applaud",
+      "carry baby",
+      "crawling baby",
+      "hug",
+      "kiss",
+      "massage",
+      "shake hands"
+    ]
+  },
+  "sports exercise": {
+    "athelets": [
+      "archery",
+      "arm wrestling",
+      "clean and jerk",
+      "fencing",
+      "javelin throw",
+      "shot put",
+      "springboard diving",
+      "squat snatch",
+      "throw discus"
+    ],
+    "jump & climb": [
+      "bungee jumping",
+      "climbing ladder",
+      "climbing tree",
+      "high jump",
+      "hurdling",
+      "long jump",
+      "pole vault",
+      "triple jump"
+    ],
+    "swing ball": [
+      "drop golf",
+      "play badminton",
+      "play bowling",
+      "play hockey",
+      "play ice hockey",
+      "play table tennis",
+      "play tennis",
+      "play volleyball"
+    ],
+    "team ball": [
+      "cast basketball",
+      "catch baseball",
+      "dribble basketball",
+      "dunk basketball",
+      "hit baseball",
+      "keep goal",
+      "pass basketball",
+      "pass soccer",
+      "pitch baseball",
+      "shot soccer"
+    ],
+    "water": [
+      "freestylerelay",
+      "butterflystroke",
+      "breaststroke",
+      "backstroke"
+    ]
+  }
+}

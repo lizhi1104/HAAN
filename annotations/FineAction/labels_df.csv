@@ -1,0 +1,107 @@
+high,coarse,fine
+household activities,cleaning,chopping meat
+household activities,cleaning,clean windows
+household activities,cleaning,cut vegetables
+household activities,cleaning,fold clothes
+household activities,cleaning,mop floor
+household activities,cleaning,sweep floor
+household activities,cleaning,wash dishes
+household activities,cleaning,wash vegetables or fruit
+household activities,cleaning,wipe
+household activities,cleaning,wipe the table
+household activities,plants,arrange flowers
+household activities,plants,chop wood
+household activities,plants,dig hole
+household activities,plants,mow lawn
+household activities,plants,trim shrubs
+household activities,plants,trim trees
+household activities,plants,water plants
+personal care,hair,braid hair 
+personal care,hair,brush hair
+personal care,hair,cut hair
+personal care,hair,dry hair
+personal care,hair,shave head
+personal care,hair,straighten hair
+personal care,hygiene,brush teeth
+personal care,hygiene,cut nails
+personal care,hygiene,tie shoelaces
+personal care,hygiene,trim or shave beard
+personal care,hygiene,wash face
+personal care,hygiene,wash feet
+personal care,hygiene,wash hands
+personal care,makeup,apply eyebrows
+personal care,makeup,apply eyeliner
+personal care,makeup,apply lipstick
+personal care,makeup,apply nails
+personal care,makeup,draw lipstick
+personal care,makeup,paint eye shadow
+personal care,makeup,put on mascara
+socializing relaxing,instruments with hand,play the accordion
+socializing relaxing,instruments with hand,play the cello
+socializing relaxing,instruments with hand,play the drums
+socializing relaxing,instruments with hand,play the guitar
+socializing relaxing,instruments with hand,play the harp
+socializing relaxing,instruments with hand,play the keyboard
+socializing relaxing,instruments with hand,play the piano
+socializing relaxing,instruments with hand,play the violin
+socializing relaxing,instruments with mouth,play the bagpipes
+socializing relaxing,instruments with mouth,play the flute
+socializing relaxing,instruments with mouth,play the harmonica
+socializing relaxing,instruments with mouth,play the saxophone
+socializing relaxing,instruments with mouth,play the trumpet
+socializing relaxing,outdoor,hula hooping
+socializing relaxing,outdoor,make a telephone call
+socializing relaxing,outdoor,pull ups
+socializing relaxing,outdoor,push wheelchair
+socializing relaxing,outdoor,ride a bike
+socializing relaxing,outdoor,ride scooter
+socializing relaxing,outdoor,rope skipping
+socializing relaxing,outdoor,skateboarding
+socializing relaxing,outdoor,smoking
+socializing relaxing,outdoor,swing
+socializing relaxing,touching,applaud
+socializing relaxing,touching,carry baby
+socializing relaxing,touching,crawling baby
+socializing relaxing,touching,hug
+socializing relaxing,touching,kiss
+socializing relaxing,touching,massage
+socializing relaxing,touching,shake hands
+sports exercise,athelets,archery
+sports exercise,athelets,arm wrestling
+sports exercise,athelets,clean and jerk
+sports exercise,athelets,fencing
+sports exercise,athelets,javelin throw
+sports exercise,athelets,shot put
+sports exercise,athelets,springboard diving
+sports exercise,athelets,squat snatch
+sports exercise,athelets,throw discus
+sports exercise,jump & climb,bungee jumping
+sports exercise,jump & climb,climbing ladder
+sports exercise,jump & climb,climbing tree
+sports exercise,jump & climb,high jump
+sports exercise,jump & climb,hurdling
+sports exercise,jump & climb,long jump
+sports exercise,jump & climb,pole vault
+sports exercise,jump & climb,triple jump
+sports exercise,swing ball,drop golf
+sports exercise,swing ball,play badminton
+sports exercise,swing ball,play bowling
+sports exercise,swing ball,play hockey
+sports exercise,swing ball,play ice hockey
+sports exercise,swing ball,play table tennis
+sports exercise,swing ball,play tennis
+sports exercise,swing ball,play volleyball
+sports exercise,team ball,cast basketball
+sports exercise,team ball,catch baseball
+sports exercise,team ball,dribble basketball
+sports exercise,team ball,dunk basketball
+sports exercise,team ball,hit baseball
+sports exercise,team ball,keep goal
+sports exercise,team ball,pass basketball
+sports exercise,team ball,pass soccer
+sports exercise,team ball,pitch baseball
+sports exercise,team ball,shot soccer
+sports exercise,water,backstroke
+sports exercise,water,breaststroke
+sports exercise,water,butterflystroke
+sports exercise,water,freestylerelay
