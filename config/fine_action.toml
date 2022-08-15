@@ -1,0 +1,40 @@
+[dataset]
+name = "FineAction"
+
+[stats]
+num_training_videos = 8440
+num_coarse_classes = 14
+num_fine_classes = 106
+max_clips_per_video = 100
+
+[features]
+features_path = "dataset/FineAction/FineAction_i3d_100.npy"
+
+[annotations]
+video_names_path = "dataset/FineAction/video_names.npy"
+labels_path = "dataset/FineAction/labels.npy"
+segments_path = "dataset/FineAction/segments.npy"
+sec2clip_ratios_path = "dataset/FineAction/sec2clip_ratios.npy"
+fine_to_coarse_mappings_path = "dataset/FineAction/fine_to_coarse_mappings.json"
+
+[hyperparameters]
+feature_size = 4096
+encoded_feature_size = 1024
+batch_size = 2
+clustering_sample_rate = 0.03
+dropout_rate = 0.3
+learning_rate = 3e-5
+epochs = 50
+num_visual_concepts = 500
+num_top_visual_concepts = 5
+fine_to_coarse_pooling = "max"
+lambda_1 = 1
+lambda_2 = 0.001
+lambda_3 = 0.01
+lambda_4 = 1
+
+[evaluation]
+tiou_thresholds = [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
+report_thresholds = [0.5, 0.75, 0.95]
+alpha = -0.8
+kmax_mod_factor = 4

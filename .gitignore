@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# HAAN-specific
+FineGym_i3d_fps24.npy
+FineAction_i3d_100.npy

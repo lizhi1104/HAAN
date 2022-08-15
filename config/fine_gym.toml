@@ -1,0 +1,40 @@
+[dataset]
+name = "FineGym"
+
+[stats]
+num_training_videos = 3775
+num_coarse_classes = 14
+num_fine_classes = 99
+max_clips_per_video = 309
+
+[features]
+features_path = "dataset/FineGym/FineGym_i3d_fps24.npy"
+
+[annotations]
+video_names_path = "dataset/FineGym/video_names.npy"
+labels_path = "dataset/FineGym/labels.npy"
+segments_path = "dataset/FineGym/segments.npy"
+sec2clip_ratios_path = "dataset/FineGym/sec2clip_ratios.npy"
+fine_to_coarse_mappings_path = "dataset/FineGym/fine_to_coarse_mappings.json"
+
+[hyperparameters]
+feature_size = 2048
+encoded_feature_size = 2048
+batch_size = 2
+clustering_sample_rate = 0.1
+dropout_rate = 0.5
+learning_rate = 3e-5
+epochs = 200
+num_visual_concepts = 500
+num_top_visual_concepts = 5
+fine_to_coarse_pooling = "mean"
+lambda_1 = 1
+lambda_2 = 0.001
+lambda_3 = 0.01
+lambda_4 = 0.1
+
+[evaluation]
+tiou_thresholds = [0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5]
+report_thresholds = [0.1, 0.2, 0.3, 0.4, 0.5]
+alpha = 0.1
+kmax_mod_factor = 2
