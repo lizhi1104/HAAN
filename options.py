@@ -28,5 +28,5 @@ parser.add_argument(
 )
 parser.add_argument("--seed", type=int, default=1, help="random seed (default: 1)")
 parser.add_argument(
-    "--device", type=str, default="cuda:3", help="device type (default: cuda)"
+    "--device", type=str, default="cuda", help="device type (default: cuda)"
 )
