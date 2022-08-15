@@ -1,5 +1,8 @@
 # Hierarchical Atomic Action Network
+![HAAN](https://user-images.githubusercontent.com/39921289/184747673-62577404-06b2-47a1-b6a5-96300e7303b6.png)
+
 This repo contains the code for the paper:
+
 Li, Z., He, L., & Xu, H. (2022). [Weakly-Supervised Temporal Action Detection for Fine-Grained Videos with Hierarchical Atomic Actions](https://arxiv.org/abs/2207.11805). arXiv preprint arXiv:2207.11805.
 
 
@@ -25,6 +28,7 @@ The code is written and run with the following packages:
 ## Instructions
 ### Data Preparation
 Put the extracted I3D features under `dataset/FineAction/` and/or `dataset/FineGym` and update `features_path` in `config/fine_action.toml` and/or `config/fine_gym.toml` accordingly.
+
 Features can be downloaded via [this link](https://drive.google.com/drive/folders/1IXh0k68j2m6bftQxgJMfkkhqRe0xyqnq?usp=sharing). We extracted FineGym features using [I3D](https://github.com/tomrunia/PyTorchConv3D), and FineAction features are from the [FineAction competition page](https://codalab.lisn.upsaclay.fr/competitions/4386). We use the `i3d_100` version of the features.
 ### Training
 Run the following code, replacing `DATASET` with `FineAction` or `FineGym`, `EXP_NAME` with your experiment name, and `OUTPUT_DIR` with the directory where you want to store the results.
@@ -38,6 +42,7 @@ Run the following code, replacing `DATASET` with `FineAction` or `FineGym`, and 
 python main.py --dataset DATASET --evaluation-only --input-models-dir INPUT_MODELS_DIR
 ```
 Make sure to have `encoder.pkl` and `fine_level_classifier.pkl` under your `INPUT_MODELS_DIR`. The other two models `pseudo_label_classifier.pkl` and `coarse_level_classifier.pkl` are not needed for evaluation.
+
 We also provide our pre-trained models under `output/FineAction/pre-trained` and `output/FineGym/pre-trained`.
 
 
