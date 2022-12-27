@@ -29,7 +29,7 @@ The code is written and run with the following packages:
 ### Data Preparation
 Put the extracted I3D features under `dataset/FineAction/` and/or `dataset/FineGym` and update `features_path` in `config/fine_action.toml` and/or `config/fine_gym.toml` accordingly.
 
-Features can be downloaded via [this link](https://drive.google.com/drive/folders/1IXh0k68j2m6bftQxgJMfkkhqRe0xyqnq?usp=sharing). We extracted FineGym features using [I3D](https://github.com/tomrunia/PyTorchConv3D), and FineAction features are from the [FineAction competition page](https://codalab.lisn.upsaclay.fr/competitions/4386). We use the `i3d_100` version of the features.
+Features can be downloaded via [Google Drive](https://drive.google.com/drive/folders/1IXh0k68j2m6bftQxgJMfkkhqRe0xyqnq?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1NuYVp8NKcZO-DMqB-FBIRg?pwd=8fy7). We extracted FineGym features using [I3D](https://github.com/tomrunia/PyTorchConv3D), and FineAction features are from the [FineAction competition page](https://codalab.lisn.upsaclay.fr/competitions/4386). We use the `i3d_100` version of the features.
 ### Training
 Run the following code, replacing `DATASET` with `FineAction` or `FineGym`, `EXP_NAME` with your experiment name, and `OUTPUT_DIR` with the directory where you want to store the results.
 ```
