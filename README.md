@@ -3,7 +3,7 @@
 
 This repo contains the code for the paper:
 
-Li, Z., He, L., & Xu, H. (2022). [Weakly-Supervised Temporal Action Detection for Fine-Grained Videos with Hierarchical Atomic Actions](https://arxiv.org/abs/2207.11805). arXiv preprint arXiv:2207.11805.
+Li, Z., He, L., & Xu, H. (2022). [Weakly-Supervised Temporal Action Detection for Fine-Grained Videos with Hierarchical Atomic Actions](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700562.pdf). In European Conference on Computer Vision (pp. 567-584). Springer, Cham.
 
 
 ## Dependencies
@@ -55,11 +55,13 @@ We referenced the following repos for the code:
 ## Citation
 Please cite the following work if you use this package.
 ```
-@article{li2022weakly,
+@inproceedings{li2022weakly,
   title={Weakly-Supervised Temporal Action Detection for Fine-Grained Videos with Hierarchical Atomic Actions},
   author={Li, Zhi and He, Lu and Xu, Huijuan},
-  journal={arXiv preprint arXiv:2207.11805},
-  year={2022}
+  booktitle={European Conference on Computer Vision},
+  pages={567--584},
+  year={2022},
+  organization={Springer}
 }
 ```
 
